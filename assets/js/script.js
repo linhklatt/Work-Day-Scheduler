@@ -6,20 +6,19 @@ function displayDayTime() {
 setInterval(displayDayTime, 1000);
 
 // click button function to save in the local storage
-$(".saveBtn").on("click", function (event) {
+$(".saveBtn").click(function (event) {
   event.preventDefault();
-  var time = $(this).parent().attr("id");
-  var text = $(this).siblings(".description").val();
-
-  localStorage.setItem(time, text);
+  var value = $(this).siblings(".time-block").val();
+  var time = $(this).parent().attr("id").split("-")[1];
+  localStorage.setItem(time, value);
 });
 // retrieves items from locale storage
-$("#9 .description").val(localStorage.getItem("9"));
-$("#10 .description").val(localStorage.getItem("10"));
-$("#11 .description").val(localStorage.getItem("11"));
-$("#12 .description").val(localStorage.getItem("12"));
-$("#13 .description").val(localStorage.getItem("13"));
-$("#14 .description").val(localStorage.getItem("14"));
-$("#15 .description").val(localStorage.getItem("15"));
-$("#16 .description").val(localStorage.getItem("16"));
-$("#17 .description").val(localStorage.getItem("17"));
+$("#hour-9 .time-block").val(localStorage.getItem("9"));
+$("#hour-10 .time-block").val(localStorage.getItem("10"));
+$("#hour-11 .time-block").val(localStorage.getItem("11"));
+$("#hour-12 .time-block").val(localStorage.getItem("12"));
+$("#hour-13 .time-block").val(localStorage.getItem("13"));
+$("#hour-14 .time-block").val(localStorage.getItem("14"));
+$("#hour-15 .time-block").val(localStorage.getItem("15"));
+$("#hour-16 .time-block").val(localStorage.getItem("16"));
+$("#hour-17 .time-block").val(localStorage.getItem("17"));

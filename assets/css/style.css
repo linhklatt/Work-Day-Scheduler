@@ -2,6 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #dacdfb;
 }
 .container {
   max-width: 1024px;
@@ -14,16 +15,22 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
+display-4 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  line-height: 1;
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: #a042cc;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #ba6fee;
   padding-top: 30px;
   padding-bottom: 20px;
   margin-bottom: 0px;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch9-aum-06_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=189eb94a4e0b0448c4b1b7a076cc4a42);
+  background-position: center;
 }
 
 .description {
@@ -41,12 +48,14 @@ textarea {
 }
 
 .hour {
-  background-color: #ffeaa7;
+  background-color: #cf52e2;
   color: rgb(82, 82, 82);
   padding-top: 27px;
   padding-left: 10px;
-  font-size: 25px;
-  font-weight: 500;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: end;
+  font-weight: bolder;
 }
 
 .past {
@@ -71,7 +80,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #5a229f;
   color: white;
 }
 
