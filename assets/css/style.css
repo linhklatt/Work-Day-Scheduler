@@ -1,0 +1,39 @@
+.body {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(219, 229, 229);
+  color: rgb(2, 5, 168);
+  border-radius: 10px;
+}
+#current-day {
+  font-weight: bolder;
+  font-size: 24px;
+}
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+.description {
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 10px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
