@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Display current date and time
-  var NowMoment = moment().format("MMMM Do YYYY");
+  var NowMoment = moment().format("dddd, MMMM Do YYYY");
   var displayDate = document.getElementById("currentDay");
   displayDate.innerHTML = NowMoment;
   var currentHour = moment().format("HH");

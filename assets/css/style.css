@@ -35,6 +35,7 @@ display-4 {
 
 .description {
   white-space: pre-wrap;
+  text-align: left;
 }
 
 .time-block {
